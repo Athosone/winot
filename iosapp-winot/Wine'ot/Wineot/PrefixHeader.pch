@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  Wineot
+//
+//  Created by Werck Ayrton on 28/01/2015.
+//  Copyright (c) 2015 wineot. All rights reserved.
+//
+
+#ifndef Wineot_PrefixHeader_pch
+#define Wineot_PrefixHeader_pch
+
+#import <MagicalRecord/CoreData+MagicalRecord.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

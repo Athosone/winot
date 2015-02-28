@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9F2FEB25-A580-49F6-A52A-5B679816CE73</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wineot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</key>
+		<string>https://bitbucket.org/wineot/wineot-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wine'ot/Wineot.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/wineot/wineot-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wineot-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

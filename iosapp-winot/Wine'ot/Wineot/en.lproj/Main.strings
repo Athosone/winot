@@ -1,0 +1,90 @@
+
+/* Class = "IBUIButton"; normalTitle = "Need an Account ?"; ObjectID = "1F3-J9-gtR"; */
+"1F3-J9-gtR.normalTitle" = "Need an Account ?";
+
+/* Class = "IBUIButton"; normalTitle = "Connect"; ObjectID = "2xu-ht-rql"; */
+"2xu-ht-rql.normalTitle" = "Connect";
+
+/* Class = "IBUINavigationItem"; title = "Wine'ot"; ObjectID = "5gx-ed-84k"; */
+"5gx-ed-84k.title" = "Wine'ot";
+
+/* Class = "IBUITableViewController"; title = "menuTableViewController"; ObjectID = "E8J-29-D95"; */
+"E8J-29-D95.title" = "menuTableViewController";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "HVw-EI-1RS"; */
+"HVw-EI-1RS.normalTitle" = "Validate";
+
+/* Class = "IBUIViewController"; title = "SearchWine"; ObjectID = "Ite-26-INq"; */
+"Ite-26-INq.title" = "SearchWine";
+
+/* Class = "IBUIButton"; accessibilityLabel = "buttonTakePictureTBI1"; ObjectID = "IwV-JR-JRv"; */
+"IwV-JR-JRv.accessibilityLabel" = "buttonTakePictureTBI1";
+
+/* Class = "IBUIButton"; normalTitle = "Take photo"; ObjectID = "IwV-JR-JRv"; */
+"IwV-JR-JRv.normalTitle" = "Take photo";
+
+/* Class = "IBUILabel"; text = "Login"; ObjectID = "Nu7-OI-AMc"; */
+"Nu7-OI-AMc.text" = "Login";
+
+/* Class = "IBUITextField"; placeholder = "Password again..."; ObjectID = "Otw-iV-EIa"; */
+"Otw-iV-EIa.placeholder" = "Password";
+
+/* Class = "IBUINavigationItem"; title = "Wine'ot"; ObjectID = "Qdl-3s-09W"; */
+"Qdl-3s-09W.title" = "Wine'ot";
+
+/* Class = "IBUILabel"; text = "Add to favorite"; ObjectID = "bWH-og-CUO"; */
+"bWH-og-CUO.text" = "Add to favorite";
+
+/* Class = "IBUIViewController"; title = "TakePicture"; ObjectID = "blE-rR-Goj"; */
+"blE-rR-Goj.title" = "TakePicture";
+
+/* Class = "IBUILabel"; text = "Password"; ObjectID = "cnc-uy-CVR"; */
+"cnc-uy-CVR.text" = "Password";
+
+/* Class = "IBUIButton"; accessibilityLabel = "buttonBrowseTBIndex1"; ObjectID = "d5u-BV-75y"; */
+"d5u-BV-75y.accessibilityLabel" = "buttonBrowseTBIndex1";
+
+/* Class = "IBUIButton"; normalTitle = "Browse"; ObjectID = "d5u-BV-75y"; */
+"d5u-BV-75y.normalTitle" = "Browse";
+
+/* Class = "IBUIButton"; accessibilityLabel = "buttonSendPictureTBI1"; ObjectID = "gg2-VB-M2C"; */
+"gg2-VB-M2C.accessibilityLabel" = "buttonSendPictureTBI1";
+
+/* Class = "IBUIButton"; normalTitle = "Send"; ObjectID = "gg2-VB-M2C"; */
+"gg2-VB-M2C.normalTitle" = "Send";
+
+/* Class = "IBUILabel"; text = "DateOfPictureTaken"; ObjectID = "h0Q-du-J5O"; */
+"h0Q-du-J5O.text" = "DateOfPictureTaken";
+
+/* Class = "IBUILabel"; text = "NameOFBottle"; ObjectID = "iHa-IN-yXk"; */
+"iHa-IN-yXk.text" = "NameOFBottle";
+
+/* Class = "IBUITabBarController"; title = "LandingPage"; ObjectID = "jRM-EZ-BdR"; */
+"jRM-EZ-BdR.title" = "LandingPage";
+
+/* Class = "IBUITextField"; placeholder = "Password"; ObjectID = "jXY-rU-2mi"; */
+"jXY-rU-2mi.placeholder" = "Password";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "lFw-Kv-8Ou"; */
+"lFw-Kv-8Ou.text" = "What is your opinion ?";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "lhq-8X-qOy"; */
+"lhq-8X-qOy.text" = "Leave your opinion then click on Validate";
+
+/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "ntX-Kg-Kjb"; */
+"ntX-Kg-Kjb.normalTitle" = "Cancel";
+
+/* Class = "IBUILabel"; text = "Add a comment"; ObjectID = "oGJ-d1-8ZG"; */
+"oGJ-d1-8ZG.text" = "Add a comment";
+
+/* Class = "IBUINavigationItem"; title = "Wine'ot"; ObjectID = "poQ-QZ-MZQ"; */
+"poQ-QZ-MZQ.title" = "Wine'ot";
+
+/* Class = "IBUITextField"; placeholder = "Email or Username"; ObjectID = "wgN-V0-fqk"; */
+"wgN-V0-fqk.placeholder" = "Email";
+
+/* Class = "IBUIButton"; accessibilityLabel = "buttonConnectLogin1"; ObjectID = "xxO-6X-uaw"; */
+"xxO-6X-uaw.accessibilityLabel" = "buttonConnectLogin1";
+
+/* Class = "IBUIButton"; normalTitle = "Connect"; ObjectID = "xxO-6X-uaw"; */
+"xxO-6X-uaw.normalTitle" = "Connect";

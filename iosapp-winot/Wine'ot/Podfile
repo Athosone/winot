@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.1'
+# ignore all warnings from all pods
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Wineot' do
+pod 'MBProgressHUD', '~> 0.9'
+pod 'NUI'
+pod 'RateView'
+pod 'MagicalRecord'
+pod 'pop', '~> 1.0'
+
+end
+
+target 'WineotTests' do
+pod 'MBProgressHUD', '~> 0.9'
+end
+

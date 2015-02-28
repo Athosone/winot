@@ -1,0 +1,1 @@
+PODS_WINEOT_MBPROGRESSHUD_OTHER_LDFLAGS = -framework "CoreGraphics"

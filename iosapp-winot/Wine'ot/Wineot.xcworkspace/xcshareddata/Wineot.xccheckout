@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84F586EA-EF9B-4607-8F13-76EAB091FB4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Wineot</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</key>
+		<string>https://bitbucket.org/wineot/wineot-ios.git</string>
+		<key>8356C5090DB7553B2BEE6D01F1BA3E78024CA9F9</key>
+		<string>http://5.135.165.207:7990/scm/winot/iosapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Wine'ot/Wineot.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</key>
+		<string>../../../wineot-ios</string>
+		<key>8356C5090DB7553B2BEE6D01F1BA3E78024CA9F9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://5.135.165.207:7990/scm/winot/iosapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8356C5090DB7553B2BEE6D01F1BA3E78024CA9F9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8356C5090DB7553B2BEE6D01F1BA3E78024CA9F9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosapp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8137B440FC5BD57B3552B01EE59C2714C8B0E88A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wineot-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Wineot
+
+  Created by Werck Ayrton on 24/11/2014.
+  Copyright (c) 2014 wineot. All rights reserved.
+*/
+
+"Oops !"                                        = "Oops !";
+"ok"                                            = "Ok";
+"Wrong password !"                              = "Wrong password !";
+"Wrong email !"                                 = "Wrong email !";
+"Could not connect to the server"               = "Could not connect to the server";
+"You forget to type your password :"            = "You forget to type your password :";
+"You forget to type your email"                 = "You forget to type your email :";
+"password"                                      = "password";
+"Cancel"                                        = "Cancel";
+"Login"                                         = "Login";
+"Create and GO!"                                = "Create and GO!";
+"Your password aren't the same"                 = "Your password aren't the same";
+"Need an Account ?"                             = "Need an Account ?";
+"Take Photo"                                    = "Take Photo";
+"Connecting"                                    = "Connecting";
+"Sending photo to the server"                   = "Sending photo to the server";
+"Uploading photo"                               = "Uploading photo";
+"Add a comment"                                 = "Add a comment";
+"Add to favortie"                               = "Add to favorite";
+"Added on "                                     = "Added on ";
+"Loading..."                                    = "Loading...";
+"Back"                                          = "Back";
+"Loading comments"                              = "Loading comments";
+"Account already exist"                         = "Account already exist";

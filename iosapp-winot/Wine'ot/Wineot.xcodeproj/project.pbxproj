@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C16A3B29502CB92549A060 /* libPods-Wineot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FD0D969C70A2360DB1D78D /* libPods-Wineot.a */; };
+		580AA2961A79182D007C6238 /* WOTManagedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 580AA2951A79182D007C6238 /* WOTManagedObject.m */; };
+		5815031C1A76BD260039B07F /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815031B1A76BD260039B07F /* ParallaxHeaderView.m */; };
+		5815031F1A76C1150039B07F /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 5815031E1A76C1150039B07F /* UIImage+ImageEffects.m */; };
+		582EC1FF1A5031E30060E3E1 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EC1FE1A5031E30060E3E1 /* SWRevealViewController.m */; };
+		582EC2021A5032A70060E3E1 /* WOTMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EC2011A5032A70060E3E1 /* WOTMenuTableViewController.m */; };
+		583B09FD1A0D124C0062C56E /* WOTWineClientTestLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 583B09FC1A0D124C0062C56E /* WOTWineClientTestLogin.m */; };
+		583CC8FC1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583CC8FB1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.m */; };
+		583CC90C1A763897007D56C3 /* WOTSearchWineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 583CC90B1A763897007D56C3 /* WOTSearchWineViewController.m */; };
+		584D6DE71A8785130025DF37 /* defaultEmptyUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 584D6DE51A8785130025DF37 /* defaultEmptyUser.png */; };
+		584D6DE81A8785130025DF37 /* defaultEmptyUser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 584D6DE61A8785130025DF37 /* defaultEmptyUser@2x.png */; };
+		584D6DEB1A8786760025DF37 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 584D6DE91A8786760025DF37 /* plus.png */; };
+		584D6DEC1A8786760025DF37 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 584D6DEA1A8786760025DF37 /* plus@2x.png */; };
+		586389BB1A50818F0071A5DA /* WineotMainTheme.nss in Resources */ = {isa = PBXBuildFile; fileRef = 586389BA1A50818F0071A5DA /* WineotMainTheme.nss */; };
+		58750C2B1A8D025E005D0337 /* WOTDisplayUserCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58750C2A1A8D025E005D0337 /* WOTDisplayUserCommentViewController.m */; };
+		58750C311A9210BB005D0337 /* sendPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C2D1A9210BB005D0337 /* sendPhoto.png */; };
+		58750C321A9210BC005D0337 /* sendPhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C2E1A9210BB005D0337 /* sendPhoto@2x.png */; };
+		58750C331A9210BC005D0337 /* takePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C2F1A9210BB005D0337 /* takePhoto.png */; };
+		58750C341A9210BC005D0337 /* takePhoto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C301A9210BB005D0337 /* takePhoto@2x.png */; };
+		58750C371A921596005D0337 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C351A921596005D0337 /* cancel.png */; };
+		58750C381A921596005D0337 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C361A921596005D0337 /* cancel@2x.png */; };
+		58750C3C1A949E8C005D0337 /* CustomModalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58750C3B1A949E8C005D0337 /* CustomModalAnimation.m */; };
+		58750C3F1A94D57F005D0337 /* ko.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C3D1A94D57F005D0337 /* ko.png */; };
+		58750C401A94D57F005D0337 /* ko@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C3E1A94D57F005D0337 /* ko@2x.png */; };
+		58750C431A94D586005D0337 /* ok.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C411A94D586005D0337 /* ok.png */; };
+		58750C441A94D586005D0337 /* ok@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58750C421A94D586005D0337 /* ok@2x.png */; };
+		588C8E961A41D459002416F0 /* WOTHelperConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 588C8E951A41D459002416F0 /* WOTHelperConstants.m */; };
+		588EBA921A7784F7005929DC /* favIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 588EBA8F1A7784F7005929DC /* favIcon.png */; };
+		588EBA931A7784F7005929DC /* favIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588EBA901A7784F7005929DC /* favIcon@2x.png */; };
+		588EBA941A7784F7005929DC /* favIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588EBA911A7784F7005929DC /* favIcon@3x.png */; };
+		588EBAA41A7788EF005929DC /* commentIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 588EBAA11A7788EF005929DC /* commentIcon.png */; };
+		588EBAA51A7788EF005929DC /* commentIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 588EBAA21A7788EF005929DC /* commentIcon@2x.png */; };
+		589671E31A7FAEED0019000C /* WOTAddCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589671E21A7FAEED0019000C /* WOTAddCommentViewController.m */; };
+		589671ED1A7FF1880019000C /* WOTComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 589671EC1A7FF1880019000C /* WOTComment.m */; };
+		58A7AA461A068468001D5F9C /* WOTLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA451A068468001D5F9C /* WOTLoginViewController.m */; };
+		58A7AA491A068D84001D5F9C /* WOTWineClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA481A068D84001D5F9C /* WOTWineClient.m */; };
+		58A7AA4C1A06926F001D5F9C /* WOTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA4B1A06926F001D5F9C /* WOTRequest.m */; };
+		58A7AAE71A06A08F001D5F9C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA531A06A08F001D5F9C /* AFHTTPRequestOperation.m */; };
+		58A7AAE81A06A08F001D5F9C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA551A06A08F001D5F9C /* AFHTTPRequestOperationManager.m */; };
+		58A7AAE91A06A08F001D5F9C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA571A06A08F001D5F9C /* AFHTTPSessionManager.m */; };
+		58A7AAEA1A06A08F001D5F9C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA5A1A06A08F001D5F9C /* AFNetworkReachabilityManager.m */; };
+		58A7AAEB1A06A08F001D5F9C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA5C1A06A08F001D5F9C /* AFSecurityPolicy.m */; };
+		58A7AAEC1A06A08F001D5F9C /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA5E1A06A08F001D5F9C /* AFURLConnectionOperation.m */; };
+		58A7AAED1A06A08F001D5F9C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA601A06A08F001D5F9C /* AFURLRequestSerialization.m */; };
+		58A7AAEE1A06A08F001D5F9C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA621A06A08F001D5F9C /* AFURLResponseSerialization.m */; };
+		58A7AAEF1A06A08F001D5F9C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7AA641A06A08F001D5F9C /* AFURLSessionManager.m */; };
+		58B193031A78EA42006A99FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B193021A78EA42006A99FC /* CoreData.framework */; };
+		58B1930A1A78EAE7006A99FC /* WOTWineModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58B193081A78EAE7006A99FC /* WOTWineModel.xcdatamodeld */; };
+		58B193161A78EFB7006A99FC /* WOTBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B193151A78EFB7006A99FC /* WOTBottle.m */; };
+		58B193191A78EFB8006A99FC /* WOTWineUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B193181A78EFB8006A99FC /* WOTWineUser.m */; };
+		58B2B7E61A08D01900B66BCD /* WOTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2B7E51A08D01900B66BCD /* WOTTabBarController.m */; };
+		58B2B7E91A08D07A00B66BCD /* WOTCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B2B7E81A08D07A00B66BCD /* WOTCameraViewController.m */; };
+		58B76AA61A23179A009FA321 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58B76AA81A23179A009FA321 /* Localizable.strings */; };
+		58BB68751A8BAC6900048BBD /* disclosureRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 58BB68731A8BAC6900048BBD /* disclosureRight.png */; };
+		58BB68761A8BAC6900048BBD /* disclosureRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58BB68741A8BAC6900048BBD /* disclosureRight@2x.png */; };
+		58BBAB001A348C1700C243AE /* bottleTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58BBAAFF1A348C1700C243AE /* bottleTest.jpg */; };
+		58CCECB31A0640D600FEE721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CCECB21A0640D600FEE721 /* main.m */; };
+		58CCECB61A0640D600FEE721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CCECB51A0640D600FEE721 /* AppDelegate.m */; };
+		58CCECBF1A0640D600FEE721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58CCECBD1A0640D600FEE721 /* Main.storyboard */; };
+		58CCECC11A0640D600FEE721 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58CCECC01A0640D600FEE721 /* Images.xcassets */; };
+		58CCECC41A0640D600FEE721 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58CCECC21A0640D600FEE721 /* LaunchScreen.xib */; };
+		58D75D271A0E1E8B00A7D7EF /* camera48.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D75D261A0E1E8B00A7D7EF /* camera48.png */; };
+		58D75D2D1A0E204200A7D7EF /* camera48Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 58D75D2C1A0E204200A7D7EF /* camera48Color.png */; };
+		58DB20BC1A3F3FA3000CF1F3 /* cameraTabBarItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DB20BB1A3F3FA3000CF1F3 /* cameraTabBarItem.png */; };
+		58DB20BE1A3F4716000CF1F3 /* backgroundtabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 58DB20BD1A3F4716000CF1F3 /* backgroundtabbar.png */; };
+		58EE004A1A097E510085B454 /* cameraLogoTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EE00491A097E510085B454 /* cameraLogoTabBar.png */; };
+		58EF80D81A507713000F5109 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EF80D51A507713000F5109 /* menu.png */; };
+		58EF80DB1A507856000F5109 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EF80D91A507856000F5109 /* menu@2x.png */; };
+		58EF80DC1A507856000F5109 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58EF80DA1A507856000F5109 /* menu@3x.png */; };
+		58F034581A0D55DA00694651 /* LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F034571A0D55DA00694651 /* LoginTests.m */; };
+		58F198651A0681E8000BAE7B /* Wine'ot final.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F198641A0681E8000BAE7B /* Wine'ot final.png */; };
+		58F1CF251A3094B0004BD5C2 /* WOTSendPhotoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F1CF241A3094B0004BD5C2 /* WOTSendPhotoTest.m */; };
+		58FD848D1A94E06900F04673 /* CircleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD848C1A94E06900F04673 /* CircleAnimation.m */; };
+		58FD84901A98D6EB00F04673 /* Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD848F1A98D6EB00F04673 /* Animations.m */; };
+		58FD849C1A99EA4E00F04673 /* loginImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD849A1A99EA4E00F04673 /* loginImage.png */; };
+		58FD849D1A99EA4E00F04673 /* loginImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD849B1A99EA4E00F04673 /* loginImage@2x.png */; };
+		58FD84B81A9A20BB00F04673 /* frame+line.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84B61A9A20BB00F04673 /* frame+line.png */; };
+		58FD84B91A9A20BB00F04673 /* frame+line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84B71A9A20BB00F04673 /* frame+line@2x.png */; };
+		58FD84BC1A9A459A00F04673 /* loginBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84BA1A9A459A00F04673 /* loginBackground.png */; };
+		58FD84BD1A9A459A00F04673 /* loginBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84BB1A9A459A00F04673 /* loginBackground@2x.png */; };
+		58FD84C01A9A473000F04673 /* passwordCadenas.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84BE1A9A473000F04673 /* passwordCadenas.png */; };
+		58FD84C11A9A473000F04673 /* passwordCadenas@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84BF1A9A473000F04673 /* passwordCadenas@2x.png */; };
+		58FD84C41A9A477000F04673 /* accountLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84C21A9A477000F04673 /* accountLogin.png */; };
+		58FD84C51A9A477000F04673 /* accountLogin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84C31A9A477000F04673 /* accountLogin@2x.png */; };
+		58FD84C81A9CA6D500F04673 /* defaultAccount.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84C61A9CA6D500F04673 /* defaultAccount.png */; };
+		58FD84C91A9CA6D500F04673 /* defaultAccount@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84C71A9CA6D500F04673 /* defaultAccount@2x.png */; };
+		58FD84CC1A9CA79500F04673 /* emptyFavIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84CA1A9CA79500F04673 /* emptyFavIcon.png */; };
+		58FD84CD1A9CA79500F04673 /* emptyFavIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58FD84CB1A9CA79500F04673 /* emptyFavIcon@2x.png */; };
+		D73D4B20D3A9993CEAE64DFA /* libPods-WineotTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45AF584551A9DBCCC3EB0 /* libPods-WineotTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		58F034591A0D704700694651 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = wrapper.storyboardc;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# ibtool\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		58CCECCA1A0640D600FEE721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58CCECA51A0640D600FEE721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CCECAC1A0640D600FEE721;
+			remoteInfo = "Wine'ot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54FD0D969C70A2360DB1D78D /* libPods-Wineot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wineot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580AA2931A78FE05007C6238 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		580AA2941A79182D007C6238 /* WOTManagedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTManagedObject.h; sourceTree = "<group>"; };
+		580AA2951A79182D007C6238 /* WOTManagedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTManagedObject.m; sourceTree = "<group>"; };
+		5815031A1A76BD260039B07F /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		5815031B1A76BD260039B07F /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		5815031D1A76C1150039B07F /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		5815031E1A76C1150039B07F /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		582EC1FD1A5031E30060E3E1 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		582EC1FE1A5031E30060E3E1 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		582EC2001A5032A70060E3E1 /* WOTMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTMenuTableViewController.h; sourceTree = "<group>"; };
+		582EC2011A5032A70060E3E1 /* WOTMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTMenuTableViewController.m; sourceTree = "<group>"; };
+		583B09FC1A0D124C0062C56E /* WOTWineClientTestLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTWineClientTestLogin.m; sourceTree = "<group>"; };
+		583CC8FA1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTDisplayBottleTableTableViewController.h; sourceTree = "<group>"; };
+		583CC8FB1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTDisplayBottleTableTableViewController.m; sourceTree = "<group>"; };
+		583CC90A1A763897007D56C3 /* WOTSearchWineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTSearchWineViewController.h; sourceTree = "<group>"; };
+		583CC90B1A763897007D56C3 /* WOTSearchWineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTSearchWineViewController.m; sourceTree = "<group>"; };
+		584D6DE51A8785130025DF37 /* defaultEmptyUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultEmptyUser.png; sourceTree = "<group>"; };
+		584D6DE61A8785130025DF37 /* defaultEmptyUser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultEmptyUser@2x.png"; sourceTree = "<group>"; };
+		584D6DE91A8786760025DF37 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		584D6DEA1A8786760025DF37 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		586389BA1A50818F0071A5DA /* WineotMainTheme.nss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WineotMainTheme.nss; sourceTree = "<group>"; };
+		58750C291A8D025E005D0337 /* WOTDisplayUserCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTDisplayUserCommentViewController.h; sourceTree = "<group>"; };
+		58750C2A1A8D025E005D0337 /* WOTDisplayUserCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTDisplayUserCommentViewController.m; sourceTree = "<group>"; };
+		58750C2D1A9210BB005D0337 /* sendPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sendPhoto.png; sourceTree = "<group>"; };
+		58750C2E1A9210BB005D0337 /* sendPhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sendPhoto@2x.png"; sourceTree = "<group>"; };
+		58750C2F1A9210BB005D0337 /* takePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takePhoto.png; sourceTree = "<group>"; };
+		58750C301A9210BB005D0337 /* takePhoto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "takePhoto@2x.png"; sourceTree = "<group>"; };
+		58750C351A921596005D0337 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		58750C361A921596005D0337 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		58750C3A1A949E8C005D0337 /* CustomModalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModalAnimation.h; sourceTree = "<group>"; };
+		58750C3B1A949E8C005D0337 /* CustomModalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModalAnimation.m; sourceTree = "<group>"; };
+		58750C3D1A94D57F005D0337 /* ko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ko.png; sourceTree = "<group>"; };
+		58750C3E1A94D57F005D0337 /* ko@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ko@2x.png"; sourceTree = "<group>"; };
+		58750C411A94D586005D0337 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		58750C421A94D586005D0337 /* ok@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ok@2x.png"; sourceTree = "<group>"; };
+		588C8E941A41D459002416F0 /* WOTHelperConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTHelperConstants.h; sourceTree = "<group>"; };
+		588C8E951A41D459002416F0 /* WOTHelperConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTHelperConstants.m; sourceTree = "<group>"; };
+		588EBA8F1A7784F7005929DC /* favIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favIcon.png; sourceTree = "<group>"; };
+		588EBA901A7784F7005929DC /* favIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favIcon@2x.png"; sourceTree = "<group>"; };
+		588EBA911A7784F7005929DC /* favIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favIcon@3x.png"; sourceTree = "<group>"; };
+		588EBAA11A7788EF005929DC /* commentIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentIcon.png; sourceTree = "<group>"; };
+		588EBAA21A7788EF005929DC /* commentIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "commentIcon@2x.png"; sourceTree = "<group>"; };
+		589671E11A7FAEED0019000C /* WOTAddCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTAddCommentViewController.h; sourceTree = "<group>"; };
+		589671E21A7FAEED0019000C /* WOTAddCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTAddCommentViewController.m; sourceTree = "<group>"; };
+		589671E51A7FBDB00019000C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		589671E71A7FBDCE0019000C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		589671EB1A7FF1880019000C /* WOTComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WOTComment.h; path = ../WOTComment.h; sourceTree = "<group>"; };
+		589671EC1A7FF1880019000C /* WOTComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WOTComment.m; path = ../WOTComment.m; sourceTree = "<group>"; };
+		58A7AA441A068468001D5F9C /* WOTLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTLoginViewController.h; sourceTree = "<group>"; };
+		58A7AA451A068468001D5F9C /* WOTLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTLoginViewController.m; sourceTree = "<group>"; };
+		58A7AA471A068D84001D5F9C /* WOTWineClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTWineClient.h; sourceTree = "<group>"; };
+		58A7AA481A068D84001D5F9C /* WOTWineClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTWineClient.m; sourceTree = "<group>"; };
+		58A7AA4A1A06926F001D5F9C /* WOTRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTRequest.h; sourceTree = "<group>"; };
+		58A7AA4B1A06926F001D5F9C /* WOTRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTRequest.m; sourceTree = "<group>"; };
+		58A7AA521A06A08F001D5F9C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		58A7AA531A06A08F001D5F9C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		58A7AA541A06A08F001D5F9C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		58A7AA551A06A08F001D5F9C /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		58A7AA561A06A08F001D5F9C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		58A7AA571A06A08F001D5F9C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		58A7AA581A06A08F001D5F9C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		58A7AA591A06A08F001D5F9C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		58A7AA5A1A06A08F001D5F9C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		58A7AA5B1A06A08F001D5F9C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		58A7AA5C1A06A08F001D5F9C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		58A7AA5D1A06A08F001D5F9C /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		58A7AA5E1A06A08F001D5F9C /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		58A7AA5F1A06A08F001D5F9C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		58A7AA601A06A08F001D5F9C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		58A7AA611A06A08F001D5F9C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		58A7AA621A06A08F001D5F9C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		58A7AA631A06A08F001D5F9C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		58A7AA641A06A08F001D5F9C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		58B193021A78EA42006A99FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		58B193091A78EAE7006A99FC /* WOTWineModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WOTWineModel.xcdatamodel; sourceTree = "<group>"; };
+		58B193141A78EFB7006A99FC /* WOTBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTBottle.h; sourceTree = "<group>"; };
+		58B193151A78EFB7006A99FC /* WOTBottle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTBottle.m; sourceTree = "<group>"; };
+		58B193171A78EFB8006A99FC /* WOTWineUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTWineUser.h; sourceTree = "<group>"; };
+		58B193181A78EFB8006A99FC /* WOTWineUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTWineUser.m; sourceTree = "<group>"; };
+		58B2B7E41A08D01900B66BCD /* WOTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTTabBarController.h; sourceTree = "<group>"; };
+		58B2B7E51A08D01900B66BCD /* WOTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTTabBarController.m; sourceTree = "<group>"; };
+		58B2B7E71A08D07A00B66BCD /* WOTCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WOTCameraViewController.h; sourceTree = "<group>"; };
+		58B2B7E81A08D07A00B66BCD /* WOTCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTCameraViewController.m; sourceTree = "<group>"; };
+		58B76AA51A231725009FA321 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		58B76AA71A23179A009FA321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		58B76AA91A2317AA009FA321 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		58BB68731A8BAC6900048BBD /* disclosureRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosureRight.png; sourceTree = "<group>"; };
+		58BB68741A8BAC6900048BBD /* disclosureRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclosureRight@2x.png"; sourceTree = "<group>"; };
+		58BBAAFF1A348C1700C243AE /* bottleTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottleTest.jpg; sourceTree = "<group>"; };
+		58CCECAD1A0640D600FEE721 /* Wineot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wineot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CCECB11A0640D600FEE721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58CCECB21A0640D600FEE721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58CCECB41A0640D600FEE721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58CCECB51A0640D600FEE721 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58CCECBE1A0640D600FEE721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58CCECC01A0640D600FEE721 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		58CCECC31A0640D600FEE721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		58CCECC91A0640D600FEE721 /* WineotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WineotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CCECCE1A0640D600FEE721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D75D261A0E1E8B00A7D7EF /* camera48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera48.png; sourceTree = "<group>"; };
+		58D75D2C1A0E204200A7D7EF /* camera48Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera48Color.png; sourceTree = "<group>"; };
+		58DB20BB1A3F3FA3000CF1F3 /* cameraTabBarItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraTabBarItem.png; sourceTree = "<group>"; };
+		58DB20BD1A3F4716000CF1F3 /* backgroundtabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundtabbar.png; sourceTree = "<group>"; };
+		58EE00491A097E510085B454 /* cameraLogoTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraLogoTabBar.png; sourceTree = "<group>"; };
+		58EF80D51A507713000F5109 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		58EF80D91A507856000F5109 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		58EF80DA1A507856000F5109 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		58F034571A0D55DA00694651 /* LoginTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTests.m; sourceTree = "<group>"; };
+		58F198641A0681E8000BAE7B /* Wine'ot final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wine'ot final.png"; sourceTree = "<group>"; };
+		58F1CF241A3094B0004BD5C2 /* WOTSendPhotoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WOTSendPhotoTest.m; sourceTree = "<group>"; };
+		58FD848B1A94E06900F04673 /* CircleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnimation.h; sourceTree = "<group>"; };
+		58FD848C1A94E06900F04673 /* CircleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnimation.m; sourceTree = "<group>"; };
+		58FD848E1A98D6EB00F04673 /* Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animations.h; sourceTree = "<group>"; };
+		58FD848F1A98D6EB00F04673 /* Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animations.m; sourceTree = "<group>"; };
+		58FD849A1A99EA4E00F04673 /* loginImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginImage.png; sourceTree = "<group>"; };
+		58FD849B1A99EA4E00F04673 /* loginImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginImage@2x.png"; sourceTree = "<group>"; };
+		58FD84B61A9A20BB00F04673 /* frame+line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame+line.png"; sourceTree = "<group>"; };
+		58FD84B71A9A20BB00F04673 /* frame+line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame+line@2x.png"; sourceTree = "<group>"; };
+		58FD84BA1A9A459A00F04673 /* loginBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBackground.png; sourceTree = "<group>"; };
+		58FD84BB1A9A459A00F04673 /* loginBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginBackground@2x.png"; sourceTree = "<group>"; };
+		58FD84BE1A9A473000F04673 /* passwordCadenas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwordCadenas.png; sourceTree = "<group>"; };
+		58FD84BF1A9A473000F04673 /* passwordCadenas@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passwordCadenas@2x.png"; sourceTree = "<group>"; };
+		58FD84C21A9A477000F04673 /* accountLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountLogin.png; sourceTree = "<group>"; };
+		58FD84C31A9A477000F04673 /* accountLogin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accountLogin@2x.png"; sourceTree = "<group>"; };
+		58FD84C61A9CA6D500F04673 /* defaultAccount.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultAccount.png; sourceTree = "<group>"; };
+		58FD84C71A9CA6D500F04673 /* defaultAccount@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultAccount@2x.png"; sourceTree = "<group>"; };
+		58FD84CA1A9CA79500F04673 /* emptyFavIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyFavIcon.png; sourceTree = "<group>"; };
+		58FD84CB1A9CA79500F04673 /* emptyFavIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emptyFavIcon@2x.png"; sourceTree = "<group>"; };
+		61C52C9C28DDDB84541CD8BE /* Pods-Wineot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wineot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wineot/Pods-Wineot.debug.xcconfig"; sourceTree = "<group>"; };
+		7220AA23283519065A9321BF /* Pods-Wineot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wineot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wineot/Pods-Wineot.release.xcconfig"; sourceTree = "<group>"; };
+		7E339BF05E0580B6F5625ADB /* Pods-WineotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WineotTests/Pods-WineotTests.release.xcconfig"; sourceTree = "<group>"; };
+		9488DCF62F4783A4A10BDA7A /* Pods-WineotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WineotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WineotTests/Pods-WineotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD45AF584551A9DBCCC3EB0 /* libPods-WineotTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WineotTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58CCECAA1A0640D600FEE721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B193031A78EA42006A99FC /* CoreData.framework in Frameworks */,
+				44C16A3B29502CB92549A060 /* libPods-Wineot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CCECC61A0640D600FEE721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73D4B20D3A9993CEAE64DFA /* libPods-WineotTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		583CC9041A76314B007D56C3 /* DispBottle */ = {
+			isa = PBXGroup;
+			children = (
+				58750C2C1A90B9F5005D0337 /* Comment */,
+				583CC8FA1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.h */,
+				583CC8FB1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.m */,
+			);
+			name = DispBottle;
+			sourceTree = "<group>";
+		};
+		583CC9051A76381D007D56C3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				58A7AA441A068468001D5F9C /* WOTLoginViewController.h */,
+				58A7AA451A068468001D5F9C /* WOTLoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		583CC9061A76382A007D56C3 /* LFWINE */ = {
+			isa = PBXGroup;
+			children = (
+				583CC90A1A763897007D56C3 /* WOTSearchWineViewController.h */,
+				583CC90B1A763897007D56C3 /* WOTSearchWineViewController.m */,
+			);
+			name = LFWINE;
+			sourceTree = "<group>";
+		};
+		586389B51A507EC30071A5DA /* NUINSS */ = {
+			isa = PBXGroup;
+			children = (
+				586389BA1A50818F0071A5DA /* WineotMainTheme.nss */,
+			);
+			name = NUINSS;
+			sourceTree = "<group>";
+		};
+		58750C2C1A90B9F5005D0337 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				58750C2A1A8D025E005D0337 /* WOTDisplayUserCommentViewController.m */,
+				58750C291A8D025E005D0337 /* WOTDisplayUserCommentViewController.h */,
+				589671E11A7FAEED0019000C /* WOTAddCommentViewController.h */,
+				589671E21A7FAEED0019000C /* WOTAddCommentViewController.m */,
+			);
+			name = Comment;
+			sourceTree = "<group>";
+		};
+		58750C391A949E5E005D0337 /* AnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58750C3A1A949E8C005D0337 /* CustomModalAnimation.h */,
+				58750C3B1A949E8C005D0337 /* CustomModalAnimation.m */,
+				58FD848B1A94E06900F04673 /* CircleAnimation.h */,
+				58FD848C1A94E06900F04673 /* CircleAnimation.m */,
+				58FD848E1A98D6EB00F04673 /* Animations.h */,
+				58FD848F1A98D6EB00F04673 /* Animations.m */,
+			);
+			name = AnimationViewController;
+			sourceTree = "<group>";
+		};
+		58A7AA511A06A08F001D5F9C /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				58A7AA521A06A08F001D5F9C /* AFHTTPRequestOperation.h */,
+				58A7AA531A06A08F001D5F9C /* AFHTTPRequestOperation.m */,
+				58A7AA541A06A08F001D5F9C /* AFHTTPRequestOperationManager.h */,
+				58A7AA551A06A08F001D5F9C /* AFHTTPRequestOperationManager.m */,
+				58A7AA561A06A08F001D5F9C /* AFHTTPSessionManager.h */,
+				58A7AA571A06A08F001D5F9C /* AFHTTPSessionManager.m */,
+				58A7AA581A06A08F001D5F9C /* AFNetworking.h */,
+				58A7AA591A06A08F001D5F9C /* AFNetworkReachabilityManager.h */,
+				58A7AA5A1A06A08F001D5F9C /* AFNetworkReachabilityManager.m */,
+				58A7AA5B1A06A08F001D5F9C /* AFSecurityPolicy.h */,
+				58A7AA5C1A06A08F001D5F9C /* AFSecurityPolicy.m */,
+				58A7AA5D1A06A08F001D5F9C /* AFURLConnectionOperation.h */,
+				58A7AA5E1A06A08F001D5F9C /* AFURLConnectionOperation.m */,
+				58A7AA5F1A06A08F001D5F9C /* AFURLRequestSerialization.h */,
+				58A7AA601A06A08F001D5F9C /* AFURLRequestSerialization.m */,
+				58A7AA611A06A08F001D5F9C /* AFURLResponseSerialization.h */,
+				58A7AA621A06A08F001D5F9C /* AFURLResponseSerialization.m */,
+				58A7AA631A06A08F001D5F9C /* AFURLSessionManager.h */,
+				58A7AA641A06A08F001D5F9C /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = "../AFNetworking-master-2/AFNetworking";
+			sourceTree = "<group>";
+		};
+		58B193041A78EA60006A99FC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				58B193081A78EAE7006A99FC /* WOTWineModel.xcdatamodeld */,
+				580AA2941A79182D007C6238 /* WOTManagedObject.h */,
+				580AA2951A79182D007C6238 /* WOTManagedObject.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		58B677C51A9CBED400D98913 /* UIDesign */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIDesign;
+			sourceTree = "<group>";
+		};
+		58B76AA31A231575009FA321 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				58B76AA81A23179A009FA321 /* Localizable.strings */,
+			);
+			name = Strings;
+			sourceTree = "<group>";
+		};
+		58BBAB011A348C1C00C243AE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				58BBAAFF1A348C1700C243AE /* bottleTest.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		58CCECA41A0640D600FEE721 = {
+			isa = PBXGroup;
+			children = (
+				58B76AA31A231575009FA321 /* Strings */,
+				58CCECAF1A0640D600FEE721 /* Wineot */,
+				58CCECCC1A0640D600FEE721 /* WineotTests */,
+				58CCECAE1A0640D600FEE721 /* Products */,
+				91F6EC65A6D79763C9276EFF /* Pods */,
+				78F79580779387148E55EF44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58CCECAE1A0640D600FEE721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58CCECAD1A0640D600FEE721 /* Wineot.app */,
+				58CCECC91A0640D600FEE721 /* WineotTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58CCECAF1A0640D600FEE721 /* Wineot */ = {
+			isa = PBXGroup;
+			children = (
+				58F198681A068247000BAE7B /* Model */,
+				58F198671A068242000BAE7B /* View */,
+				58F198661A068239000BAE7B /* ViewController */,
+				58CCECB41A0640D600FEE721 /* AppDelegate.h */,
+				58CCECB51A0640D600FEE721 /* AppDelegate.m */,
+				58CCECB01A0640D600FEE721 /* Supporting Files */,
+			);
+			path = Wineot;
+			sourceTree = "<group>";
+		};
+		58CCECB01A0640D600FEE721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58FD84911A99DD9400F04673 /* Login */,
+				58750C411A94D586005D0337 /* ok.png */,
+				58FD84C61A9CA6D500F04673 /* defaultAccount.png */,
+				58FD84C71A9CA6D500F04673 /* defaultAccount@2x.png */,
+				58750C421A94D586005D0337 /* ok@2x.png */,
+				58FD84CA1A9CA79500F04673 /* emptyFavIcon.png */,
+				58FD84CB1A9CA79500F04673 /* emptyFavIcon@2x.png */,
+				58750C3D1A94D57F005D0337 /* ko.png */,
+				58750C3E1A94D57F005D0337 /* ko@2x.png */,
+				58BB68731A8BAC6900048BBD /* disclosureRight.png */,
+				58750C351A921596005D0337 /* cancel.png */,
+				58750C361A921596005D0337 /* cancel@2x.png */,
+				58BB68741A8BAC6900048BBD /* disclosureRight@2x.png */,
+				584D6DE91A8786760025DF37 /* plus.png */,
+				584D6DEA1A8786760025DF37 /* plus@2x.png */,
+				584D6DE51A8785130025DF37 /* defaultEmptyUser.png */,
+				584D6DE61A8785130025DF37 /* defaultEmptyUser@2x.png */,
+				580AA2931A78FE05007C6238 /* PrefixHeader.pch */,
+				588EBAA11A7788EF005929DC /* commentIcon.png */,
+				588EBAA21A7788EF005929DC /* commentIcon@2x.png */,
+				58750C2D1A9210BB005D0337 /* sendPhoto.png */,
+				58750C2E1A9210BB005D0337 /* sendPhoto@2x.png */,
+				58750C2F1A9210BB005D0337 /* takePhoto.png */,
+				58750C301A9210BB005D0337 /* takePhoto@2x.png */,
+				588EBA8F1A7784F7005929DC /* favIcon.png */,
+				588EBA901A7784F7005929DC /* favIcon@2x.png */,
+				588EBA911A7784F7005929DC /* favIcon@3x.png */,
+				58EF80CE1A506EFC000F5109 /* Menu */,
+				58DB20BA1A3F3F8F000CF1F3 /* Tabbar */,
+				58D75D2C1A0E204200A7D7EF /* camera48Color.png */,
+				58D75D261A0E1E8B00A7D7EF /* camera48.png */,
+				58EE00491A097E510085B454 /* cameraLogoTabBar.png */,
+				58F198641A0681E8000BAE7B /* Wine'ot final.png */,
+				58CCECB11A0640D600FEE721 /* Info.plist */,
+				58CCECB21A0640D600FEE721 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58CCECCC1A0640D600FEE721 /* WineotTests */ = {
+			isa = PBXGroup;
+			children = (
+				58BBAB011A348C1C00C243AE /* Images */,
+				58CCECCD1A0640D600FEE721 /* Supporting Files */,
+				583B09FC1A0D124C0062C56E /* WOTWineClientTestLogin.m */,
+				58F034571A0D55DA00694651 /* LoginTests.m */,
+				58F1CF241A3094B0004BD5C2 /* WOTSendPhotoTest.m */,
+			);
+			path = WineotTests;
+			sourceTree = "<group>";
+		};
+		58CCECCD1A0640D600FEE721 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58CCECCE1A0640D600FEE721 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58DB18811A78DB6900087B3F /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				58B2B7E71A08D07A00B66BCD /* WOTCameraViewController.h */,
+				58B2B7E81A08D07A00B66BCD /* WOTCameraViewController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
+		58DB18821A78DB7E00087B3F /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				58B2B7E41A08D01900B66BCD /* WOTTabBarController.h */,
+				58B2B7E51A08D01900B66BCD /* WOTTabBarController.m */,
+				583CC9041A76314B007D56C3 /* DispBottle */,
+				583CC9061A76382A007D56C3 /* LFWINE */,
+				58DB18811A78DB6900087B3F /* Camera */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		58DB18831A78DBA200087B3F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				582EC1FD1A5031E30060E3E1 /* SWRevealViewController.h */,
+				582EC1FE1A5031E30060E3E1 /* SWRevealViewController.m */,
+				582EC2001A5032A70060E3E1 /* WOTMenuTableViewController.h */,
+				582EC2011A5032A70060E3E1 /* WOTMenuTableViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		58DB20BA1A3F3F8F000CF1F3 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				58DB20BD1A3F4716000CF1F3 /* backgroundtabbar.png */,
+				58DB20BB1A3F3FA3000CF1F3 /* cameraTabBarItem.png */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		58EF80CE1A506EFC000F5109 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				58EF80D91A507856000F5109 /* menu@2x.png */,
+				58EF80DA1A507856000F5109 /* menu@3x.png */,
+				58EF80D51A507713000F5109 /* menu.png */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		58F198661A068239000BAE7B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58DB18831A78DBA200087B3F /* Menu */,
+				58DB18821A78DB7E00087B3F /* TabBar */,
+				583CC9051A76381D007D56C3 /* Login */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		58F198671A068242000BAE7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58B677C51A9CBED400D98913 /* UIDesign */,
+				58750C391A949E5E005D0337 /* AnimationViewController */,
+				5815031D1A76C1150039B07F /* UIImage+ImageEffects.h */,
+				5815031E1A76C1150039B07F /* UIImage+ImageEffects.m */,
+				5815031A1A76BD260039B07F /* ParallaxHeaderView.h */,
+				5815031B1A76BD260039B07F /* ParallaxHeaderView.m */,
+				586389B51A507EC30071A5DA /* NUINSS */,
+				58CCECBD1A0640D600FEE721 /* Main.storyboard */,
+				58CCECC01A0640D600FEE721 /* Images.xcassets */,
+				58CCECC21A0640D600FEE721 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		58F198681A068247000BAE7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				589671EB1A7FF1880019000C /* WOTComment.h */,
+				589671EC1A7FF1880019000C /* WOTComment.m */,
+				58A7AA4A1A06926F001D5F9C /* WOTRequest.h */,
+				58A7AA4B1A06926F001D5F9C /* WOTRequest.m */,
+				588C8E941A41D459002416F0 /* WOTHelperConstants.h */,
+				588C8E951A41D459002416F0 /* WOTHelperConstants.m */,
+				58B193171A78EFB8006A99FC /* WOTWineUser.h */,
+				58A7AA471A068D84001D5F9C /* WOTWineClient.h */,
+				58A7AA481A068D84001D5F9C /* WOTWineClient.m */,
+				58B193181A78EFB8006A99FC /* WOTWineUser.m */,
+				58B193141A78EFB7006A99FC /* WOTBottle.h */,
+				58B193151A78EFB7006A99FC /* WOTBottle.m */,
+				58A7AA511A06A08F001D5F9C /* AFNetworking */,
+				58B193041A78EA60006A99FC /* CoreData */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		58FD84911A99DD9400F04673 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				58FD84C21A9A477000F04673 /* accountLogin.png */,
+				58FD84C31A9A477000F04673 /* accountLogin@2x.png */,
+				58FD84BE1A9A473000F04673 /* passwordCadenas.png */,
+				58FD84BF1A9A473000F04673 /* passwordCadenas@2x.png */,
+				58FD84BA1A9A459A00F04673 /* loginBackground.png */,
+				58FD84BB1A9A459A00F04673 /* loginBackground@2x.png */,
+				58FD84B61A9A20BB00F04673 /* frame+line.png */,
+				58FD84B71A9A20BB00F04673 /* frame+line@2x.png */,
+				58FD849A1A99EA4E00F04673 /* loginImage.png */,
+				58FD849B1A99EA4E00F04673 /* loginImage@2x.png */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		78F79580779387148E55EF44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B193021A78EA42006A99FC /* CoreData.framework */,
+				DFD45AF584551A9DBCCC3EB0 /* libPods-WineotTests.a */,
+				54FD0D969C70A2360DB1D78D /* libPods-Wineot.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F6EC65A6D79763C9276EFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61C52C9C28DDDB84541CD8BE /* Pods-Wineot.debug.xcconfig */,
+				7220AA23283519065A9321BF /* Pods-Wineot.release.xcconfig */,
+				9488DCF62F4783A4A10BDA7A /* Pods-WineotTests.debug.xcconfig */,
+				7E339BF05E0580B6F5625ADB /* Pods-WineotTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58CCECAC1A0640D600FEE721 /* Wineot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CCECD31A0640D600FEE721 /* Build configuration list for PBXNativeTarget "Wineot" */;
+			buildPhases = (
+				A760F541F849B71D404B8BD0 /* Check Pods Manifest.lock */,
+				58CCECA91A0640D600FEE721 /* Sources */,
+				58CCECAA1A0640D600FEE721 /* Frameworks */,
+				58CCECAB1A0640D600FEE721 /* Resources */,
+				28D7968A6055ADBF2154B8E6 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wineot;
+			productName = "Wine'ot";
+			productReference = 58CCECAD1A0640D600FEE721 /* Wineot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58CCECC81A0640D600FEE721 /* WineotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58CCECD61A0640D600FEE721 /* Build configuration list for PBXNativeTarget "WineotTests" */;
+			buildPhases = (
+				E1CB0C30E9AC76146171A1DD /* Check Pods Manifest.lock */,
+				58CCECC51A0640D600FEE721 /* Sources */,
+				58CCECC61A0640D600FEE721 /* Frameworks */,
+				58CCECC71A0640D600FEE721 /* Resources */,
+				D1B7051BB50D901F92DD32DC /* Copy Pods Resources */,
+			);
+			buildRules = (
+				58F034591A0D704700694651 /* PBXBuildRule */,
+			);
+			dependencies = (
+				58CCECCB1A0640D600FEE721 /* PBXTargetDependency */,
+			);
+			name = WineotTests;
+			productName = "Wine'otTests";
+			productReference = 58CCECC91A0640D600FEE721 /* WineotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58CCECA51A0640D600FEE721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = wineot;
+				TargetAttributes = {
+					58CCECAC1A0640D600FEE721 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = PHAN4JE4T7;
+					};
+					58CCECC81A0640D600FEE721 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 58CCECAC1A0640D600FEE721;
+					};
+				};
+			};
+			buildConfigurationList = 58CCECA81A0640D600FEE721 /* Build configuration list for PBXProject "Wineot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 58CCECA41A0640D600FEE721;
+			productRefGroup = 58CCECAE1A0640D600FEE721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58CCECAC1A0640D600FEE721 /* Wineot */,
+				58CCECC81A0640D600FEE721 /* WineotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58CCECAB1A0640D600FEE721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FD84C91A9CA6D500F04673 /* defaultAccount@2x.png in Resources */,
+				58FD849D1A99EA4E00F04673 /* loginImage@2x.png in Resources */,
+				58750C401A94D57F005D0337 /* ko@2x.png in Resources */,
+				58750C3F1A94D57F005D0337 /* ko.png in Resources */,
+				588EBA941A7784F7005929DC /* favIcon@3x.png in Resources */,
+				58FD84B81A9A20BB00F04673 /* frame+line.png in Resources */,
+				58BB68751A8BAC6900048BBD /* disclosureRight.png in Resources */,
+				58FD84BC1A9A459A00F04673 /* loginBackground.png in Resources */,
+				58D75D271A0E1E8B00A7D7EF /* camera48.png in Resources */,
+				58EF80DB1A507856000F5109 /* menu@2x.png in Resources */,
+				58DB20BE1A3F4716000CF1F3 /* backgroundtabbar.png in Resources */,
+				586389BB1A50818F0071A5DA /* WineotMainTheme.nss in Resources */,
+				58FD84CD1A9CA79500F04673 /* emptyFavIcon@2x.png in Resources */,
+				588EBA931A7784F7005929DC /* favIcon@2x.png in Resources */,
+				588EBA921A7784F7005929DC /* favIcon.png in Resources */,
+				58750C431A94D586005D0337 /* ok.png in Resources */,
+				584D6DEB1A8786760025DF37 /* plus.png in Resources */,
+				58FD84C81A9CA6D500F04673 /* defaultAccount.png in Resources */,
+				58750C441A94D586005D0337 /* ok@2x.png in Resources */,
+				584D6DE81A8785130025DF37 /* defaultEmptyUser@2x.png in Resources */,
+				58BB68761A8BAC6900048BBD /* disclosureRight@2x.png in Resources */,
+				58750C371A921596005D0337 /* cancel.png in Resources */,
+				58750C381A921596005D0337 /* cancel@2x.png in Resources */,
+				58FD84BD1A9A459A00F04673 /* loginBackground@2x.png in Resources */,
+				58D75D2D1A0E204200A7D7EF /* camera48Color.png in Resources */,
+				58FD84C01A9A473000F04673 /* passwordCadenas.png in Resources */,
+				58750C341A9210BC005D0337 /* takePhoto@2x.png in Resources */,
+				58CCECBF1A0640D600FEE721 /* Main.storyboard in Resources */,
+				58750C321A9210BC005D0337 /* sendPhoto@2x.png in Resources */,
+				58B76AA61A23179A009FA321 /* Localizable.strings in Resources */,
+				58FD84CC1A9CA79500F04673 /* emptyFavIcon.png in Resources */,
+				58FD84B91A9A20BB00F04673 /* frame+line@2x.png in Resources */,
+				58750C331A9210BC005D0337 /* takePhoto.png in Resources */,
+				58750C311A9210BB005D0337 /* sendPhoto.png in Resources */,
+				58DB20BC1A3F3FA3000CF1F3 /* cameraTabBarItem.png in Resources */,
+				58CCECC41A0640D600FEE721 /* LaunchScreen.xib in Resources */,
+				588EBAA41A7788EF005929DC /* commentIcon.png in Resources */,
+				58FD84C51A9A477000F04673 /* accountLogin@2x.png in Resources */,
+				58EF80DC1A507856000F5109 /* menu@3x.png in Resources */,
+				58FD849C1A99EA4E00F04673 /* loginImage.png in Resources */,
+				58FD84C41A9A477000F04673 /* accountLogin.png in Resources */,
+				58EF80D81A507713000F5109 /* menu.png in Resources */,
+				58EE004A1A097E510085B454 /* cameraLogoTabBar.png in Resources */,
+				588EBAA51A7788EF005929DC /* commentIcon@2x.png in Resources */,
+				58CCECC11A0640D600FEE721 /* Images.xcassets in Resources */,
+				584D6DEC1A8786760025DF37 /* plus@2x.png in Resources */,
+				584D6DE71A8785130025DF37 /* defaultEmptyUser.png in Resources */,
+				58FD84C11A9A473000F04673 /* passwordCadenas@2x.png in Resources */,
+				58F198651A0681E8000BAE7B /* Wine'ot final.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CCECC71A0640D600FEE721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BBAB001A348C1700C243AE /* bottleTest.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28D7968A6055ADBF2154B8E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wineot/Pods-Wineot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A760F541F849B71D404B8BD0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1B7051BB50D901F92DD32DC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WineotTests/Pods-WineotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1CB0C30E9AC76146171A1DD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58CCECA91A0640D600FEE721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A7AAEF1A06A08F001D5F9C /* AFURLSessionManager.m in Sources */,
+				580AA2961A79182D007C6238 /* WOTManagedObject.m in Sources */,
+				58B1930A1A78EAE7006A99FC /* WOTWineModel.xcdatamodeld in Sources */,
+				58FD84901A98D6EB00F04673 /* Animations.m in Sources */,
+				58A7AA4C1A06926F001D5F9C /* WOTRequest.m in Sources */,
+				589671ED1A7FF1880019000C /* WOTComment.m in Sources */,
+				5815031C1A76BD260039B07F /* ParallaxHeaderView.m in Sources */,
+				58B193161A78EFB7006A99FC /* WOTBottle.m in Sources */,
+				58750C2B1A8D025E005D0337 /* WOTDisplayUserCommentViewController.m in Sources */,
+				58CCECB61A0640D600FEE721 /* AppDelegate.m in Sources */,
+				58750C3C1A949E8C005D0337 /* CustomModalAnimation.m in Sources */,
+				58A7AAEA1A06A08F001D5F9C /* AFNetworkReachabilityManager.m in Sources */,
+				58A7AA491A068D84001D5F9C /* WOTWineClient.m in Sources */,
+				583CC8FC1A755568007D56C3 /* WOTDisplayBottleTableTableViewController.m in Sources */,
+				58A7AAEC1A06A08F001D5F9C /* AFURLConnectionOperation.m in Sources */,
+				58A7AAE91A06A08F001D5F9C /* AFHTTPSessionManager.m in Sources */,
+				58A7AAED1A06A08F001D5F9C /* AFURLRequestSerialization.m in Sources */,
+				589671E31A7FAEED0019000C /* WOTAddCommentViewController.m in Sources */,
+				5815031F1A76C1150039B07F /* UIImage+ImageEffects.m in Sources */,
+				582EC2021A5032A70060E3E1 /* WOTMenuTableViewController.m in Sources */,
+				58A7AA461A068468001D5F9C /* WOTLoginViewController.m in Sources */,
+				58CCECB31A0640D600FEE721 /* main.m in Sources */,
+				58B193191A78EFB8006A99FC /* WOTWineUser.m in Sources */,
+				583CC90C1A763897007D56C3 /* WOTSearchWineViewController.m in Sources */,
+				58B2B7E61A08D01900B66BCD /* WOTTabBarController.m in Sources */,
+				58B2B7E91A08D07A00B66BCD /* WOTCameraViewController.m in Sources */,
+				582EC1FF1A5031E30060E3E1 /* SWRevealViewController.m in Sources */,
+				58A7AAE81A06A08F001D5F9C /* AFHTTPRequestOperationManager.m in Sources */,
+				58A7AAEB1A06A08F001D5F9C /* AFSecurityPolicy.m in Sources */,
+				58A7AAEE1A06A08F001D5F9C /* AFURLResponseSerialization.m in Sources */,
+				588C8E961A41D459002416F0 /* WOTHelperConstants.m in Sources */,
+				58FD848D1A94E06900F04673 /* CircleAnimation.m in Sources */,
+				58A7AAE71A06A08F001D5F9C /* AFHTTPRequestOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CCECC51A0640D600FEE721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F1CF251A3094B0004BD5C2 /* WOTSendPhotoTest.m in Sources */,
+				583B09FD1A0D124C0062C56E /* WOTWineClientTestLogin.m in Sources */,
+				58F034581A0D55DA00694651 /* LoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58CCECCB1A0640D600FEE721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58CCECAC1A0640D600FEE721 /* Wineot */;
+			targetProxy = 58CCECCA1A0640D600FEE721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58B76AA81A23179A009FA321 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58B76AA71A23179A009FA321 /* en */,
+				58B76AA91A2317AA009FA321 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		58CCECBD1A0640D600FEE721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CCECBE1A0640D600FEE721 /* Base */,
+				589671E51A7FBDB00019000C /* en */,
+				589671E71A7FBDCE0019000C /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58CCECC21A0640D600FEE721 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58CCECC31A0640D600FEE721 /* Base */,
+				58B76AA51A231725009FA321 /* fr */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58CCECD11A0640D600FEE721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58CCECD21A0640D600FEE721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58CCECD41A0640D600FEE721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61C52C9C28DDDB84541CD8BE /* Pods-Wineot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Athos/Downloads/gh-unit-master/Project-iOS/build/Framework",
+					"$(PROJECT_DIR)",
+					/Users/Athos/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Wineot/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Wineot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = Wineot;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58CCECD51A0640D600FEE721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7220AA23283519065A9321BF /* Pods-Wineot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Athos/Downloads/gh-unit-master/Project-iOS/build/Framework",
+					"$(PROJECT_DIR)",
+					/Users/Athos/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Wineot/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Wineot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = Wineot;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58CCECD71A0640D600FEE721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9488DCF62F4783A4A10BDA7A /* Pods-WineotTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wine'otTests $(PROJECT_DIR)/Wine'ot",
+					"$(PROJECT_DIR)/Wine'otTests/Framework",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WineotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WineotTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wineot.app/Wineot";
+			};
+			name = Debug;
+		};
+		58CCECD81A0640D600FEE721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E339BF05E0580B6F5625ADB /* Pods-WineotTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wine'otTests $(PROJECT_DIR)/Wine'ot",
+					"$(PROJECT_DIR)/Wine'otTests/Framework",
+				);
+				INFOPLIST_FILE = WineotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = WineotTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wineot.app/Wineot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58CCECA81A0640D600FEE721 /* Build configuration list for PBXProject "Wineot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CCECD11A0640D600FEE721 /* Debug */,
+				58CCECD21A0640D600FEE721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CCECD31A0640D600FEE721 /* Build configuration list for PBXNativeTarget "Wineot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CCECD41A0640D600FEE721 /* Debug */,
+				58CCECD51A0640D600FEE721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58CCECD61A0640D600FEE721 /* Build configuration list for PBXNativeTarget "WineotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58CCECD71A0640D600FEE721 /* Debug */,
+				58CCECD81A0640D600FEE721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58B193081A78EAE7006A99FC /* WOTWineModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58B193091A78EAE7006A99FC /* WOTWineModel.xcdatamodel */,
+			);
+			currentVersion = 58B193091A78EAE7006A99FC /* WOTWineModel.xcdatamodel */;
+			path = WOTWineModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58CCECA51A0640D600FEE721 /* Project object */;
+}
